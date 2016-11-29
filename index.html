@@ -71,14 +71,11 @@
     })
     touch.on("body","drag",".box",function(e){
         $(".box").css({marginLeft:marginL+ e.x});
-        console.log(marginL);
     });
     touch.on("body","dragend",".box",function(e){
         if(Math.abs(e.x)>100){
-            console.log(e.direction);
             if(e.direction=="left"){
                 num++;
-                //alert($(".box a").length)
                 if(num==$(".box .whellin").length){
                     num=$(".box .whellin").length-1;
                 }
