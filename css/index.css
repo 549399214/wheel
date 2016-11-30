@@ -28,12 +28,12 @@ header .logo{
     width:120px;height:40px;background: url("../img/header_z_94c6de7.png") no-repeat;margin-top: 10px;
 }
 header .index{
-    align-self: flex-end;margin-bottom:9px;font-size: 17px;margin-right: 20px;
+    align-self: flex-end;margin-bottom:10px;font-size: 15px;font-weight:bold; margin-right: 20px;
     text-decoration: none;
     color:white;
 }
 header .last{
-    align-self: flex-end;font-size: 12px;margin-bottom: 7px;
+    align-self: flex-end;font-size: 12px;margin-bottom: 9px;
     text-decoration: none;
     color:white;
 }
